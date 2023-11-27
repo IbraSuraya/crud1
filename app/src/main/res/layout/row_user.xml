@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    android:background="#ffc8b7"
+    >
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Nama Anda" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nim"/>
+    <TextView
+        android:id="@+id/kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kategori"/>
+</LinearLayout>
